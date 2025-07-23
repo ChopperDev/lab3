@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <?- include('../partials/head') -?>
+  <body>
+    <?- include('../partials/nav') -?>
+    <?- include('../partials/header') -?>
+    <div class="container text-center" style="padding: 5rem;">
+      <p style="font-size: xx-large; font-weight: bold">
+        Welcome to
+        <?= pageData.title ?>
+      </p>
+      <div
+        class=""
+        style="
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          background-color: white;
+          padding: 2rem;
+          border-radius: 10px;
+          --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+          box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+            var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+        "
+      >
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/021/770/056/non_2x/avatar-of-a-student-character-free-vector.jpg"
+          class="img-fluid"
+          alt="..."
+          width="150px"
+          style="border-radius: 50%;"
+        />
+        <div class="" style="text-align: start; display: grid; grid-template-columns: 1fr; gap: 10px;">
+          <h3>ชื่อ : นายสิทธิชัย โพธิ์งาม</h1>
+          <h3>รหัสนิสิต : 6640204597</h1>
+        </div>
+      </div>
+    </div>
+    <?- include('../partials/footer') -?>
+  </body>
+</html>
